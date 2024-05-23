@@ -1,7 +1,7 @@
 # CSV Parser Showcase
 
-<img src="public/main-page.png" alt="CSV Parser Screenshot" width="600">
-<img src="public/react-papa-parse.png" alt="CSV Parser Screenshot" width="600">
+<img src="public/main-page.png" alt="CSV Parser Screenshot" width="300">
+<img src="public/react-papa-parse.png" alt="CSV Parser Screenshot" width="300">
 
 
 This project showcases various CSV parsing libraries integrated into a React application. The libraries included are:
