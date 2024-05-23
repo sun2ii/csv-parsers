@@ -27,3 +27,7 @@ You need to have Node.js and npm installed. You can download them from [nodejs.o
    git clone https://github.com/sun2ii/csv-parsers.git
    cd csv-parsers
    ```
+
+### License 
+
+This project is licensed under the MIT License. You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software. The software is provided "as is", without warranty of any kind. See the LICENSE file for more details.
