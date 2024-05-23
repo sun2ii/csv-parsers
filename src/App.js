@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
+import ReactPapaParseComponent from './components/ReactPapaParseComponent';
+import ReactCSVReaderComponent from './components/ReactCSVReaderComponent';
+import ReactParseCSVComponent from './components/ReactParseCSVComponent';
+import UIWReactCSVReaderComponent from './components/UIWReactCSVReaderComponent';
+import ReactCSVImporterComponent from './components/ReactCSVImporterComponent';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>CSV Parser Showcase</h1>
+      <ReactPapaParseComponent />
+      <ReactCSVReaderComponent />
+      <ReactParseCSVComponent />
+      <UIWReactCSVReaderComponent /> 
+      <ReactCSVImporterComponent />
     </div>
   );
-}
+};
 
 export default App;
