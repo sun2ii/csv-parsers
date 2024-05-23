@@ -1,25 +1,88 @@
-/* src/App.css */
-.App {
+/* App.css */
+
+body {
   font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 20px;
+  background-color: #f0f0f0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
 }
 
-h2 {
-  margin-top: 40px;
+.container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 80%;
+  max-width: 800px;
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #333;
+}
+
+h2, h3 {
+  margin: 20px 0 10px;
+  font-size: 1.5em;
+  color: #555;
+}
+
+input[type="file"] {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+label {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+label:hover {
+  background-color: #0056b3;
+}
+
+.dnd-container {
+  border: 2px dashed #007bff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  background: #e9f7ff;
+  transition: background-color 0.3s ease;
+}
+
+.dnd-container:hover {
+  background-color: #d0ebff;
 }
 
 table {
-  margin: 20px auto;
+  width: 100%;
   border-collapse: collapse;
-  width: 80%;
+  margin-top: 20px;
 }
 
 th, td {
+  padding: 10px;
   border: 1px solid #ddd;
-  padding: 8px;
 }
 
 th {
-  background-color: #f4f4f4;
+  background-color: #007bff;
+  color: white;
 }
+
+td {
+  background-color: #f9f9f9;
+}
+
