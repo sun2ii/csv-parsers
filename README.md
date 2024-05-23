@@ -1,5 +1,8 @@
 # CSV Parser Showcase
 
+![Main Page](public/main-page.png)
+![Papa Parse](public/react-papa-parse.png)
+
 This project showcases various CSV parsing libraries integrated into a React application. The libraries included are:
 
 1. **React-Papa-Parse**
