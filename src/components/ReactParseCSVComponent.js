@@ -20,7 +20,7 @@ const ReactParseCSVComponent = () => {
   return (
     <div>
       <h2>React Parse CSV (use employee.csv)</h2>
-      <input type="file" accept=".csv" onChange={handleFileChange} />
+      <input type="file" className="react-parse-csv" accept=".csv" onChange={handleFileChange} />
       {isValid && (
         <table>
           <thead>

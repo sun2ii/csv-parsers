@@ -12,7 +12,7 @@ const UIWReactCSVReaderComponent = () => {
   return (
     <div>
       <h2>@uiw/react-csv-reader</h2>
-      <CSVReader onFileLoaded={handleFileLoad} />
+      <CSVReader className="uiw-reader" onFileLoaded={handleFileLoad} />
       {data.length > 0 && (
         <table>
           <thead>

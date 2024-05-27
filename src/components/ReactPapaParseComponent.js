@@ -19,7 +19,7 @@ const ReactPapaParseComponent = () => {
   return (
     <div>
       <h2>React-Papa-Parse</h2>
-      <input type="file" accept=".csv" onChange={handleFileChange} />
+      <input className="commandbar-input-test" type="file" accept=".csv" onChange={handleFileChange} />
       {data.length > 0 && (
         <table>
           <thead>
