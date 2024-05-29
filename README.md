@@ -12,8 +12,6 @@ This project showcases various CSV parsing libraries integrated into a React app
 4. **@uiw/react-csv-reader**
 5. **React CSV Importer**
 
-This public repository is a colloboration with a blog with OneSchema. [Link to Blog Here.]()
-
 ## Getting Started
 
 These instructions will help you set up and run the project on your local machine.
